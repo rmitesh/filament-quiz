@@ -1,0 +1,26 @@
+Quiz
+
+Admin can create quize
+1. Create Quize
+	- title
+	- number of users attend
+	- result
+	
+	+ Add questions
+
+==================================
+
+	Quizes
+		- title
+		- slug
+		- key
+		- number_of_participants
+		- created_by
+		- created_at
+
+	Questions
+		- quize_id
+		- options =>
+		- valid_option
+
+Logged in user can attempt the quiz
